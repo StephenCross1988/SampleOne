@@ -1,6 +1,7 @@
-console.log("Hello there");
+let arrayObjects = {
+    "name": "John",
+    "age" : 24,
+    "colors" : ["red", "blue", "green"]
+};
 
-let x = 9;
-let y = 6;
-
-console.log(x + y);
+console.log(arrayObjects.colors[1])
